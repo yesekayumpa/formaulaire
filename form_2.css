@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap');
+*
+{
+    margin: 0;
+    text-decoration: none;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body
+{
+    font-family: 'Baloo 2', cursive;
+}
+nav{
+    background: #115035;
+    height: 90px;
+    width: 100%;
+}
+label.form{
+    color: #fff;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+    align-items: center;
+   
+    
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+
+}
+a.active,a:hover{
+    background: #1d1d2c;
+    transition: .5s ;
+}
+h1
+{
+    font-size: 40px;
+    color: #fff;
+}
+p
+{
+    color: #fff;
+}
+a
+{
+    text-decoration: none;
+    color: #115035;
+}
+input, textarea, select
+{
+    width: 100%;
+    background-color: #141824;
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin-top: 5px;
+    resize: none;
+    color: #fff;
+    border-radius: 10px;
+}
+.bg-body-box{
+    padding: 20px;
+}
+.bg-row{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+
+}
+.bv-row{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+.bg-col-12{
+    width: 100%;
+}
+
+.bg-col-3{
+    width: 16%;
+}
+
+.bg-col-6{
+    width: 48%;
+}
+
+.bg-head{
+    text-align: center;
+}
+
+.bg-head, .bg-footer{
+    background-color: #141824;
+    padding: 20px 10px;
+}
+.bg-head p{
+    color: #115035;
+    font-size: large;
+}
+.bg-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    overflow-y: auto;
+    padding: 20px 16px;
+    background-color: #1d2228;
+}
+
+.bg-body{
+    width: 500px;
+    background-color: #1d1d2c;
+}
+.bouton{
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+.bouton a{
+    color: white;
+   
+}
+@media screen and (max-width:600px) {
+    
+.bg-row {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .bg-col-12{
+    padding: 10px 0;
+    width: 100%;
+}
+
+.bg-col-3{
+    padding: 10px 0;
+    width: 30%;
+}
+.bg-container{
+    padding: 50px 16px;
+
+}
+
+
+}
+.bj-footer{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.bj-footer p{
+    color: #115035;
+    font-size: x-large;
+}
+table{
+    border: 1px solid #115035;
+    border-collapse: collapse;
+    color: #fff;
+    text-align: center;
+
+}
+td
+{
+    border-right: 2px solid #115035;
+    
+}
+#bf-col-3{
+    height: 5vh;
+    border-bottom: 2px solid #115035;
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formumaire 1</title>
+    <link rel="stylesheet" href="form_1.css">
+    
+</head>
+
+<body>
+    <!-- Menu form-->
+    <nav>
+        <label class="form">Formulaire</label>
+    <ul>
+        <li><a class="active" href="form_1.html">Form-1</a></li>
+        <li><a href="form_2.html">Form-2</a></li>
+        <li><a href="form_3.html">Form-3</a></li>
+        <li><a href="form_4.html">Form-4</a></li>
+        <li><a href="form_5.html">Form-5</a></li>
+        <li><a href="form_6.html">Form-6</a></li>
+    </ul>
+
+    </nav>
+    <!--  main Form ++ -->
+    <div class="bf-container">
+
+        <!-- Main form Body Start -->
+        <div class="bf-body">
+
+
+            <!-- Form haed -->
+            <div class="bf-head">
+                <h1>Formulaire 1</h1>
+                <p>Créer classe</p>
+            </div>
+
+            <!-- Form Body Box -->
+            <form class="bf-body-box" action="form.php">
+
+                <div class="bf-row">
+
+                    <div class="bf-col-6">
+                        <p>FILIERE</p>
+                        <input type="text" name="fname" id="fname" placeholder="GLRS A">
+                    </div>
+                    <div class="bf-col-6">
+                        <p>NIVEAU</p>
+                        <input type="email" name="email" id="email" placeholder="L1">
+                    </div>
+
+
+                </div>
+
+
+
+                <div class="bf-row">
+                    <div class="bf-col-6">
+                        <p>LIBELLE</p>
+                        <select name="s-select">
+                            <option>Selectioné</option>
+                            <option value="1">1.L1 GLRS</option>
+                            <option value="2">2.L2 GLRS A</option>
+                            <option value="3">3.L2 GLRS B</option>
+
+                        </select>
+                    </div>
+
+
+                </div>
+                <div class="bf-row">
+                    <div class="bf-col-3">
+                        <input type="reset" id="reset" value="Annuler">
+                    </div>
+                    <div>
+                        <div class="bv-col-4">
+                            <input type="Submit" value="Submit">
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </form>
+
+            <!-- Footer Start -->
+            <div class="bf-footer">
+                <a href="#">Clic sur le bouton suivant</a>
+            <div class="bouton">
+                <a href="form_2.html">Suivant</a>
+            </div>
+            <div class="bj-footer">
+                <p>Lister classe</p>
+            </div>
+                
+        </div>
+
+        <!-- Tableau -->
+
+
+        <table class="table">
+            <tr>
+                <td id="bf-col-2">LIBELLE</td>
+                <td id="bf-col-2">NIVEAU</td>
+                <td id="bf-col-2">FILIERE</td>
+            </tr>
+
+
+            <tr>
+                <td id="bf-col-2"><input type="text" class="bf-col-inp"></td>
+                <td id="bf-col-2"><input type="text" class="bf-col-inp"></td>
+                <td id="bf-col-2"><input type="text" class="bf-col-inp"></td>
+            </tr>
+            <tr>
+                <td id="bf-col-2"><input type="text" class="bf-col-inp"></td>
+                <td id="bf-col-2"><input type="text" class="bf-col-inp"></td>
+                <td id="bf-col-2"><input type="text" class="bf-col-inp"></td>
+            </tr>
+            
+        </table>
+    </div>
+   
+</body>
+
+</html>
+

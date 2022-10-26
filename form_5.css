@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    font-family: 'Baloo 2', cursive;
+}
+nav{
+    background: #115035;
+    height: 90px;
+    width: 100%;
+}
+label.form{
+    color: #fff;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+    align-items: center;
+   
+    
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+
+}
+a.active,a:hover{
+    background: #1d1d2c;
+    transition: .5s ;
+}
+
+h1{
+    font-size: 40px;
+    color: #fff;
+}
+
+p{
+    color: #fff;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: #115035;
+}
+
+input, textarea, select{
+    width: 100%;
+    background-color: #141824;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-family: 'Baloo 2', cursive;
+    margin-top: 5px;
+    resize: none;
+    color: #fff;
+    border-radius: 10px;
+}
+.bf-body-box{
+    padding: 20px;
+}
+.bf-row{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+.bf-col-12{
+    width: 50%;
+}
+
+.bf-col-3{
+    width: 14%;
+}
+
+.bf-col-6{
+    width: 48%;
+}
+
+.bf-head{
+    text-align: center;
+}
+
+.bf-head, .bf-footer{
+    background-color: #141824;
+    padding: 20px 10px;
+}
+.bf-head p{
+    color: #115035;
+}
+.bf-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    overflow-y: auto;
+    padding: 20px 16px;
+    background-color: #1d2228;
+}
+.bv-col-3{
+    width: 14%;
+   
+}
+
+.bf-body{
+    width: 500px;
+    background-color: #1d1d2c;
+}
+
+@media screen and (max-width:600px) {
+    
+.bf-row {
+    flex-direction: column;
+    padding: 0;
+  }
+
+.bf-col-3{
+    padding: 10px 0;
+    width: 30%;
+}
+
+.bf-col-6{
+    padding: 10px 0;
+    width: 100%;
+}
+.bf-container{
+    padding: 50px 16px;
+
+}
+
+
+}
+.bj-footer{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.bj-footer p{
+    color: #115035;
+    font-size: x-large;
+}
+
+.bouton{
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+}
+.bouton a{
+    color: #fff;
+}
